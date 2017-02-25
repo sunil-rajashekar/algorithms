@@ -11,7 +11,7 @@ public class CommonSortUtil {
     public static String print(int[] arrays) {
         StringBuilder sb = new StringBuilder("\n");
         for (int num : arrays) {
-            sb.append(num ).append("\t");
+            sb.append(num).append("\t");
         }
 
         sb.append("\n");
